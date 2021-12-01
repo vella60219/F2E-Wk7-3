@@ -1,0 +1,81 @@
+body{
+    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+  }
+
+.flexTextCenter{            /*文字垂直中央置中（給盒子），為了子導覽列所以設定向下排序*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定為黑色*/
+    display: block;
+    color: #030303;
+    text-decoration: none;
+  }
+
+/* ↓ 字型設定區/////////////////////////////////////////////////////////////*/
+
+.textH{                 /* header 字型*/
+    padding: 0px;
+    margin: 0px;
+    color: #000000;
+    font-size: 4rem;
+    font-family: 'Red Rose','Arial', 'Arial Narrow', sans-serif;
+    text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.53);
+}
+
+.textN{                 /* nav 字型*/
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+    font-size: 5rem;
+    font-family: 'Red Rose','Arial', 'Arial Narrow', sans-serif;
+}
+
+.textA{
+    padding: 0px;
+    margin: 0px;
+    color: #FFFFFF;
+    font-size: 7.4rem;
+    font-family: 'Red Rose','Arial', 'Arial Narrow', sans-serif;
+}
+
+.textB{
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.25;
+    color: #000000;
+    font-size: 4rem;
+    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+    text-align: center;
+}
+
+.textC{
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.25;
+    color: #000000;
+    font-size: 2.5rem;
+    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+}
+
+.textF{
+    padding: 0px;
+    margin: 0px;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+}
+
+.ft_rights .textF{
+    font-size: 2rem;
+}
+
+
+/* ↑ 字型設定區/////////////////////////////////////////////////////////////////*/
